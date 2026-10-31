@@ -1,0 +1,1 @@
+import{j as t}from"./ui-Y3ZzGT8G.js";import{m as s,L as i,G as n}from"./index-DBSkDCj9.js";import{N as a}from"./vendor-Dln_YgTi.js";import"./firebase-D_MbgrPy.js";function x(){const{user:o,userProfile:r,loading:e}=s();return e?t.jsx(i,{}):o?t.jsx(a,{to:n(r==null?void 0:r.role),replace:!0}):t.jsx(a,{to:"/login",replace:!0})}export{x as default};
