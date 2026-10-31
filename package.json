@@ -1,0 +1,53 @@
+{
+  "name": "rstate-realestate",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "sync-users": "node scripts/sync-users.cjs"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.6.0",
+    "@react-google-maps/api": "^2.19.3",
+    "autoprefixer": "^10.4.19",
+    "axios": "^1.7.2",
+    "date-fns": "^3.6.0",
+    "firebase": "^10.12.0",
+    "framer-motion": "^11.1.7",
+    "i18next": "^23.11.5",
+    "jspdf": "^4.2.1",
+    "postcss": "^8.4.38",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-dropzone": "^14.2.3",
+    "react-helmet-async": "^2.0.4",
+    "react-hook-form": "^7.51.5",
+    "react-hot-toast": "^2.4.1",
+    "react-i18next": "^14.1.1",
+    "react-icons": "^5.2.1",
+    "react-loading-skeleton": "^3.4.0",
+    "react-phone-input-2": "^2.15.1",
+    "react-router-dom": "^6.23.0",
+    "react-share": "^5.1.0",
+    "recharts": "^2.12.7",
+    "tailwindcss": "^3.4.3",
+    "uuid": "^9.0.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "firebase-admin": "^12.1.0",
+    "vite": "^5.2.12",
+    "vite-plugin-pwa": "^1.3.0"
+  }
+}
