@@ -1,1 +1,17 @@
 
+
+User-agent: *
+Allow: /
+
+Disallow: /login
+Disallow: /register
+Disallow: /dashboard
+Disallow: /profile
+Disallow: /saved-properties
+Disallow: /notifications
+Disallow: /chat
+Disallow: /add-property
+Disallow: /edit-property/
+Disallow: /verify-email
+
+Sitemap: https://realstate.homes/sitemap.xml
