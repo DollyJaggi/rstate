@@ -1,10 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-       <loc>https://realstate.homes/</loc>
-       <lastmod>2026-11-05T01:21:13+00:00</lastmod>
-       <priority>1.0000</priority>
+    <loc>https://realstate.homes/</loc>
   </url>
+
+  <url>
+    <loc>https://realstate.homes/properties</loc>
+  </url>
+
+  <url>
+    <loc>https://realstate.homes/projects</loc>
+  </url>
+
+  <url>
+    <loc>https://realstate.homes/blog</loc>
+  </url>
+
+  <url>
+    <loc>https://realstate.homes/about</loc>
+  </url>
+
+  <url>
+    <loc>https://realstate.homes/resources</loc>
+  </url>
+
+  <url>
+    <loc>https://realstate.homes/home-loan</loc>
+  </url>
+
+  <url>
+    <loc>https://realstate.homes/property-valuation</loc>
+  </url>
+
+  <url>
+    <loc>https://realstate.homes/rental-agreement</loc>
+  </url>
+
 </urlset>
