@@ -57,8 +57,7 @@ export default function App() {
       <main className="flex-1 pt-16">
         <Suspense fallback={<LoadingScreen />}>
           <Routes>
-            <Route path="/" element={<RootRoute />} />
-            <Route path="/home" element={<HomeRoute />} />
+            <Route path="/" element={<HomeRoute />} /
             <Route path="/properties" element={<PropertyListing />} />
             <Route path="/property/:id" element={<PropertyDetail />} />
             <Route path="/projects" element={<Projects />} />
